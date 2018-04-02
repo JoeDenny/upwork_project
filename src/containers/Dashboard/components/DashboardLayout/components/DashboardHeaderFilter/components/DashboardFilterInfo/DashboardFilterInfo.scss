@@ -1,0 +1,7 @@
+.dashboard-filter-info {
+    display: flex;
+    align-items: center;
+    &__filter {
+        flex-grow: 1;
+    }
+}

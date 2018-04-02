@@ -1,0 +1,14 @@
+.dashboard-filter {
+  position: absolute;
+  width: 400px;
+  background-color: #fff;
+  top: 80px;
+  right: 0;
+  height: calc(100% - 80px);
+  padding: 20px;
+  z-index: 0;
+  transform: translateX(400px);
+  transition: transform .25s ease-in-out; }
+  .dashboard-filter._visible {
+    box-shadow: -3px 0 15px 0 rgba(34, 38, 41, 0.3);
+    transform: translateX(0); }

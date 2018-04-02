@@ -1,0 +1,17 @@
+@import 'styles/common/variables.scss';
+
+.team-or-player-item {
+    display: flex;
+    align-items: center;
+    &__img {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+        min-height: 60px;
+        border-radius: 50%;
+        border: 1px solid $black;
+    }
+    &__text {
+        margin-left: 15px;
+    }
+}

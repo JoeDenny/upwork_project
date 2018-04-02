@@ -1,0 +1,7 @@
+.dashboard-time-filter-button {
+    font-size: 14px;
+    &._active {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}

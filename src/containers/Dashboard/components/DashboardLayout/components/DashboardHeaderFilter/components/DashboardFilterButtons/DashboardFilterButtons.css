@@ -1,0 +1,7 @@
+.dashboard-filter-buttons {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end; }
+  .dashboard-filter-buttons__item:not(:first-child) {
+    margin-left: 30px; }

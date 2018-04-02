@@ -1,0 +1,16 @@
+@import 'styles/common/variables.scss';
+
+.news-added-time-ago {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    svg {
+        width: 12px;
+        min-width: 12px;
+        height: 12px;
+        fill: $grey;
+    }
+    &__value {
+        margin-left: 10px;
+    }
+}

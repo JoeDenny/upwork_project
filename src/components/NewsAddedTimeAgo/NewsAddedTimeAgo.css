@@ -1,0 +1,11 @@
+.news-added-time-ago {
+  display: flex;
+  align-items: center;
+  font-size: 14px; }
+  .news-added-time-ago svg {
+    width: 12px;
+    min-width: 12px;
+    height: 12px;
+    fill: #6B6E70; }
+  .news-added-time-ago__value {
+    margin-left: 10px; }

@@ -1,0 +1,13 @@
+.source {
+  display: flex;
+  align-items: center; }
+  .source__img {
+    width: 16px;
+    min-width: 16px;
+    height: 16px; }
+    .source__img img {
+      max-width: 100%; }
+  .source__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 5px; }

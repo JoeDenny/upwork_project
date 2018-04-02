@@ -1,0 +1,8 @@
+@import 'styles/common/variables.scss';
+
+.dashboard-sidebar-separator {
+    width: calc(100% - 30px);
+    margin: 20px auto 0;
+    height: 2px;
+    background-color: $grey;
+}

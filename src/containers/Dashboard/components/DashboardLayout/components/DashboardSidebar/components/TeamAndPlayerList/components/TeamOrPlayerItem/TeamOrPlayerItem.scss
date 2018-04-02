@@ -1,0 +1,5 @@
+.team-or-player-item {
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
