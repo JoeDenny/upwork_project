@@ -1,0 +1,17 @@
+.like-news-button {
+    span {
+        display: inline-block;
+        margin-left: 5px;
+    }
+    span,
+    svg {
+        vertical-align: middle;
+    }
+    svg {
+        width: 24px;
+        height: 22px;
+        fill: none;
+        stroke: #000;
+        stroke-width: 5px;
+    }
+}

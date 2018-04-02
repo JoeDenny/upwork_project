@@ -1,0 +1,13 @@
+.comment-news-button span {
+  display: inline-block;
+  margin-left: 5px; }
+
+.comment-news-button span,
+.comment-news-button svg {
+  vertical-align: middle; }
+
+.comment-news-button svg {
+  width: 22px;
+  height: 22px;
+  stroke-width: 5px;
+  stroke: #000; }

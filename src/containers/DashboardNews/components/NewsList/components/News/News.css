@@ -1,0 +1,101 @@
+.news {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px 40px;
+  border: 1px solid rgba(107, 110, 112, 0.3);
+  border-radius: 20px; }
+  ._full-width .news {
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(107, 110, 112, 0.3); }
+  ._card .news {
+    width: calc(25% - 20px);
+    min-width: calc(25% - 20px);
+    margin: 10px;
+    display: block;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 40px 20px 20px; }
+    ._card .news__close {
+      top: 0;
+      right: 10px; }
+    ._card .news__share {
+      top: 0;
+      right: 50px; }
+    ._card .news__img {
+      width: 100%;
+      height: auto;
+      border-radius: 0; }
+    ._card .news__content {
+      margin-left: 0; }
+      ._card .news__content-buttons {
+        padding-left: 0;
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid rgba(107, 110, 112, 0.3); }
+  .news__close {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    .news__close button {
+      text-align: right; }
+  .news__share {
+    position: absolute;
+    top: 20px;
+    right: 60px; }
+  .news__img {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    border-radius: 50%;
+    overflow: hidden; }
+    .news__img img {
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center center; }
+  .news__content {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-left: 20px; }
+    .news__content-wrapper {
+      padding-right: 100px; }
+    .news__content-source {
+      margin-bottom: 10px; }
+      .news__content-source:empty {
+        display: none; }
+    .news__content-title {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin-bottom: 5px; }
+    .news__content-time {
+      margin-left: 15px; }
+    .news__content-buttons {
+      display: flex;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 20px; }
+      .news__content-buttons button._active svg {
+        fill: #86C232;
+        stroke: #86C232; }
+      .news__content-buttons button svg {
+        transition: transform .1s ease-in-out; }
+      .news__content-buttons button:hover svg {
+        fill: #86C232;
+        stroke: #86C232; }
+      .news__content-buttons button:active svg {
+        transform: scale(0.9); }
+      .news__content-buttons-left {
+        display: flex;
+        align-items: center; }
+        .news__content-buttons-left button:not(:first-child) {
+          margin-left: 15px; }
+      .news__content-buttons-right {
+        margin-left: auto; }

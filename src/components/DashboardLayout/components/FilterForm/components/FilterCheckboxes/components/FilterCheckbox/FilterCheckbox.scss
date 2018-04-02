@@ -1,0 +1,43 @@
+@import 'styles/common/variables.scss';
+
+.filter-checkbox {
+    cursor: pointer;
+    input {
+        display: none;
+        &:checked {
+            & + span {
+                &:after {
+                    display: block;
+                }
+            }
+        }
+    }
+    span {
+        position: relative;
+        font-size: 18px;
+        vertical-align: middle;
+        &:before {
+            display: inline-block;
+            content: '';
+            width: 24px;
+            height: 24px;
+            border: 1px solid rgba($grey, .3);
+            background-color: rgba($grey, .1);
+            border-radius: 4px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        &:after {
+            display: none;
+            position: absolute;
+            content: '';
+            width: 16px;
+            height: 8px;
+            transform: rotate(-45deg);
+            border-bottom: 1px solid #000;
+            border-left: 1px solid #000;
+            left: 5px;
+            top: 4px;
+        }
+    }
+}

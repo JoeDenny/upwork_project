@@ -17,6 +17,8 @@ ul {
   margin: 0;
   list-style-type: none; }
 
+input,
+textarea,
 button {
   background: none;
   border: none;
@@ -25,5 +27,12 @@ button {
   margin: 0; }
 
 input:focus,
+textarea:focus,
 button:focus {
   outline: none; }
+
+textarea {
+  resize: none; }
+
+button {
+  font-size: inherit; }

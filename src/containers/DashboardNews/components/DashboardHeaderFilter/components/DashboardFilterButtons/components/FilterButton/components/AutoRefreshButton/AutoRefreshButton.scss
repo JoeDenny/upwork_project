@@ -1,0 +1,22 @@
+.auto-refresh-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    &._list-visible {
+        .auto-refresh-button {
+            &__list {
+                opacity: 1;
+                pointer-events: auto;
+                transform: translateX(calc(-100% - 20px));
+                transition: opacity .25s ease-in-out .1s, transform .25s ease-in-out;
+            }
+        }
+    }
+    &__list {
+        left: 0;
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .25s ease-in-out, transform .25s ease-in-out .1s;
+    }
+}

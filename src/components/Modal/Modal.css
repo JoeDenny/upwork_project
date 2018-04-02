@@ -1,0 +1,25 @@
+.modal {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(34, 38, 41, 0.8);
+  z-index: 101; }
+  .modal._visible {
+    display: flex; }
+  .modal__inner {
+    position: relative;
+    height: 200px;
+    background-color: #fff; }
+    .modal__inner-close {
+      top: -20px;
+      right: -20px;
+      position: absolute; }
+      .modal__inner-close svg {
+        width: 16px;
+        height: 16px;
+        fill: #fff; }

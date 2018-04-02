@@ -1,0 +1,22 @@
+.filter-search {
+  position: relative;
+  flex-grow: 1;
+  margin-right: 20px;
+  border-radius: 3px; }
+  .filter-search input {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    min-width: 400px;
+    font-size: 18px;
+    background-color: #fff;
+    padding-left: 42px; }
+  .filter-search__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: rgba(107, 110, 112, 0.8);
+    width: 24px;
+    height: 24px;
+    left: 0;
+    z-index: 1; }

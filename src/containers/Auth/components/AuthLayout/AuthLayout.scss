@@ -1,0 +1,10 @@
+@import 'styles/common/variables.scss';
+
+.auth-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $darkGrey;
+    min-height: 100vh;
+}

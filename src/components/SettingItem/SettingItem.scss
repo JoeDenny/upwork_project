@@ -1,0 +1,13 @@
+@import 'styles/common/variables.scss';
+
+.setting-item {
+    display: flex;
+    align-items: center;
+    &__img {
+        width: 40px;
+        min-width: 40px;
+    }
+    &__title {
+        margin-left: 15px;
+    }
+}

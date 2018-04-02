@@ -1,0 +1,8 @@
+.filter-list {
+  height: 100%;
+  overflow-y: auto; }
+  .filter-list__item .setting-item {
+    padding: 20px 10px;
+    min-height: 40px; }
+  .filter-list__item:hover {
+    background-color: rgba(107, 110, 112, 0.1); }

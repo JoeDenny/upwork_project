@@ -1,0 +1,41 @@
+.dashboard-layout {
+  position: relative;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-color: #222629;
+  overflow: hidden; }
+  .dashboard-layout__header {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top: 0;
+    height: 100px;
+    background-color: #222629;
+    box-shadow: 0 3px 15px 0 rgba(34, 38, 41, 0.3);
+    z-index: 1; }
+  .dashboard-layout__sidebar {
+    position: absolute;
+    background-color: #222629;
+    left: 0;
+    top: 80px;
+    width: 60px;
+    height: calc(100vh - 70px);
+    box-shadow: 3px 0 15px 0 rgba(34, 38, 41, 0.3);
+    z-index: 1; }
+  .dashboard-layout__content {
+    position: relative;
+    width: calc(100% - 60px);
+    left: 60px;
+    right: 0;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: auto; }
+    .dashboard-layout__content._fixed .dashboard-news__content-filter {
+      position: fixed;
+      left: 60px;
+      box-shadow: 0 10px 10px 0 rgba(34, 38, 41, 0.1);
+      top: 0; }
+    .dashboard-layout__content-wrapper {
+      position: relative;
+      min-height: calc(100% - 80px);
+      z-index: 0; }

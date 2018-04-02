@@ -1,0 +1,7 @@
+@import 'styles/common/variables.scss';
+@import 'styles/common/mixins.scss';
+
+.auth-form-button {
+    @include ctaButton();
+    width: 100%;
+}

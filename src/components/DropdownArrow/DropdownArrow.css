@@ -1,0 +1,10 @@
+.dropdown-arrow {
+  position: relative;
+  border: 6px solid transparent;
+  border-top: 10px solid #000;
+  margin: 0 10px;
+  top: 3px; }
+  .dropdown-arrow._reverted {
+    border-top: none;
+    border-bottom: 10px solid #000;
+    top: 0; }

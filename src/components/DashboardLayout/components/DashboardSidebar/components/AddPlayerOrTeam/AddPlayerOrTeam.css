@@ -1,0 +1,27 @@
+.add-player-or-team {
+  position: relative;
+  width: 40px;
+  min-height: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #222629;
+  background-color: #474B4F;
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.4);
+  transition: box-shadow .25s;
+  margin-top: 10px; }
+  .add-player-or-team:hover {
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.6); }
+  .add-player-or-team:after, .add-player-or-team:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 4px;
+    height: 16px;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    border-radius: 3px; }
+  .add-player-or-team:after {
+    transform: translate(-50%, -50%) rotate(0deg); }
+  .add-player-or-team:before {
+    transform: translate(-50%, -50%) rotate(90deg); }

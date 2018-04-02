@@ -1,0 +1,22 @@
+.dashboard-filter-info {
+  display: flex;
+  align-items: center; }
+  .dashboard-filter-info__list {
+    display: flex;
+    align-items: center; }
+  .dashboard-filter-info__item {
+    margin-right: 20px; }
+  .dashboard-filter-info__filter {
+    flex-grow: 1; }
+  .dashboard-filter-info__separator {
+    font-weight: 700;
+    margin-right: 20px; }
+  .dashboard-filter-info__edit {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 20px; }
+  .dashboard-filter-info__save {
+    background-color: #6bac0f;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px; }

@@ -1,0 +1,14 @@
+@import 'styles/common/variables.scss';
+
+.profile-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid rgba($grey, .3);
+    padding-top: 20px;
+    &__username {
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

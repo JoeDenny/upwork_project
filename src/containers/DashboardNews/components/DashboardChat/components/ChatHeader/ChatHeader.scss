@@ -1,0 +1,12 @@
+@import 'styles/common/variables.scss';
+
+.chat-header {
+    padding: 20px 60px 10px 20px;
+    &__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    &__amount {
+        font-size: 16px;
+    }
+}

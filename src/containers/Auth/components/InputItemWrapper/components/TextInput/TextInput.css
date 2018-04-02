@@ -1,0 +1,11 @@
+.text-input input {
+  min-width: 320px;
+  background-color: #222629;
+  color: #fff;
+  padding: 0 10px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 4px; }
+  .text-input input::placeholder {
+    opacity: .6;
+    color: #fff; }

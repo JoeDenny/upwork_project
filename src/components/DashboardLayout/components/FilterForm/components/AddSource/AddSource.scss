@@ -1,0 +1,11 @@
+@import 'styles/common/variables.scss';
+
+.add-source {
+    padding: 5px 15px;
+    background-color: $darkGreen;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: auto;
+    text-transform: uppercase;
+}

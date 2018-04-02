@@ -1,0 +1,32 @@
+@import 'styles/common/variables.scss';
+
+.modal {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba($black, .8);
+    z-index: 101;
+    &._visible {
+        display: flex;
+    }
+    &__inner {
+        position: relative;
+        height: 200px;
+        background-color: #fff;
+        &-close {
+            top: -20px;
+            right: -20px;
+            position: absolute;
+            svg {
+                width: 16px;
+                height: 16px;
+                fill: #fff;
+            }
+        }
+    }
+}

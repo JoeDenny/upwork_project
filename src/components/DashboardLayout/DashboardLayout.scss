@@ -1,0 +1,53 @@
+@import 'styles/common/variables.scss';
+
+.dashboard-layout {
+    position: relative;
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: $black;
+    overflow: hidden;
+    &__header {
+        position: absolute;
+        left: 100px;
+        right: 0;
+        top: 0;
+        height: 100px;
+        background-color: $black;
+        box-shadow: 0 3px 15px 0 rgba($black, .3);
+        z-index: 1;
+    }
+    &__sidebar {
+        position: absolute;
+        background-color: $black;
+        left: 0;
+        top: 80px;
+        width: 60px;
+        height: calc(100vh - 70px);
+        box-shadow: 3px 0 15px 0 rgba($black, .3);
+        z-index: 1;
+    }
+    &__content {
+        position: relative;
+        width: calc(100% - 60px);
+        left: 60px;
+        right: 0;
+        background-color: #fff;
+        height: 100vh;
+        overflow-y: auto;
+        &._fixed {
+            .dashboard-news__content {
+                &-filter {
+                    position: fixed;
+                    left: 60px;
+                    box-shadow: 0 10px 10px 0 rgba($black, .1);
+                    top: 0;
+                }
+            }
+        }
+        &-wrapper {
+            position: relative;
+            min-height: calc(100% - 80px);
+            z-index: 0;
+        }
+    }
+}

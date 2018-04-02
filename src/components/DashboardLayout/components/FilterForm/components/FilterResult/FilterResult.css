@@ -1,0 +1,7 @@
+.filter-result {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid rgba(107, 110, 112, 0.3);
+  min-height: 50px; }
+  .filter-result__item:not(:first-child) {
+    margin-left: 10px; }

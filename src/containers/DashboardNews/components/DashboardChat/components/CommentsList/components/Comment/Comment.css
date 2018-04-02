@@ -1,0 +1,31 @@
+.comment {
+  position: relative;
+  display: flex; }
+  .comment__content {
+    margin-left: 10px; }
+  .comment:not(:last-child) {
+    margin-bottom: 20px; }
+  .comment__edit {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 36px; }
+    .comment__edit svg {
+      width: 16px;
+      height: 16px; }
+  .comment__remove {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 0; }
+    .comment__remove svg {
+      width: 16px;
+      height: 16px; }
+  .comment__content-top {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px; }
+  .comment__content-time {
+    margin-left: 5px; }

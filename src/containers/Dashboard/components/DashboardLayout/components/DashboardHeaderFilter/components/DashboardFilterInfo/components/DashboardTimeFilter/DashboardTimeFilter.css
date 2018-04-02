@@ -1,7 +1,0 @@
-.dashboard-time-filter {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  justify-content: flex-end; }
-  .dashboard-time-filter__item:not(:first-child) {
-    margin-left: 20px; }

@@ -1,0 +1,15 @@
+@import 'styles/common/variables.scss';
+
+.league-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba($grey, .3);
+    padding: 10px;
+    cursor: pointer;
+    &__img {
+        max-width: 60px;
+        img {
+            max-width: 100%;
+        }
+    }
+}

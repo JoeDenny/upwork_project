@@ -1,0 +1,16 @@
+.filter-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 20px 80px 20px 20px;
+  z-index: 100; }
+  .filter-overlay__close {
+    position: absolute;
+    top: 20px;
+    right: 20px; }
+    .filter-overlay__close svg {
+      width: 24px;
+      height: 24px; }

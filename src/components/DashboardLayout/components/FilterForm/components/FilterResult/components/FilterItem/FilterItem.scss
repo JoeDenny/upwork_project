@@ -1,0 +1,17 @@
+@import 'styles/common/variables.scss';
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    background-color: rgba($grey, .1);
+    padding: 5px 10px;
+    color: $black;
+    border-radius: 4px;
+    &__remove {
+        margin-left: 5px;
+        svg {
+            width: 10px;
+            height: 10px;
+        }
+    }
+}

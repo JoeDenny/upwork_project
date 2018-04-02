@@ -1,0 +1,8 @@
+.news-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .news-list._card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220vw; }

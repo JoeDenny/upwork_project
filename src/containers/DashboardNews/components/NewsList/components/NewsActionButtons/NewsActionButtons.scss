@@ -1,0 +1,10 @@
+@import 'styles/common/variables.scss';
+
+.news-action-buttons {
+    display: flex;
+    button {
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+}

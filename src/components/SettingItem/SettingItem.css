@@ -1,0 +1,8 @@
+.setting-item {
+  display: flex;
+  align-items: center; }
+  .setting-item__img {
+    width: 40px;
+    min-width: 40px; }
+  .setting-item__title {
+    margin-left: 15px; }

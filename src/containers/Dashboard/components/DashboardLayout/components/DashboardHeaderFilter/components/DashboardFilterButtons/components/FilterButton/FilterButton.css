@@ -1,8 +1,0 @@
-.filter-button svg {
-  width: 26px;
-  transition: fill .25s ease-in-out; }
-  .filter-button svg:hover {
-    fill: #6bac0f; }
-
-.filter-button._active svg {
-  fill: #6bac0f; }

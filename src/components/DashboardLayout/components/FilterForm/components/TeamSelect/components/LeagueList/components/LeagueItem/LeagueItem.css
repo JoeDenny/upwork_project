@@ -1,0 +1,10 @@
+.league-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(107, 110, 112, 0.3);
+  padding: 10px;
+  cursor: pointer; }
+  .league-item__img {
+    max-width: 60px; }
+    .league-item__img img {
+      max-width: 100%; }

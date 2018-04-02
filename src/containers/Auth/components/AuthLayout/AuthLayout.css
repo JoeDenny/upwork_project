@@ -1,0 +1,7 @@
+.auth-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #474B4F;
+  min-height: 100vh; }

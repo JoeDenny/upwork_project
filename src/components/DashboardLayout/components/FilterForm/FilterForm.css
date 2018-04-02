@@ -1,0 +1,6 @@
+.filter-form {
+  height: 100%; }
+  .filter-form__summary, .filter-form__search, .filter-form__checkboxes, .filter-form__select {
+    margin-bottom: 10px; }
+  .filter-form__search {
+    height: calc(100% - 70px); }

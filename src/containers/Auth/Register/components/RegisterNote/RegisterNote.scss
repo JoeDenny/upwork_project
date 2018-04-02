@@ -1,0 +1,10 @@
+@import 'styles/common/variables.scss';
+
+.register-note {
+    margin-top: 20px;
+    color: #fff;
+    a {
+        color: $green;
+        margin-left: 5px;
+    }
+}

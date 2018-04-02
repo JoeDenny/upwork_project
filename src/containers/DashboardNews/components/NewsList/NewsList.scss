@@ -1,0 +1,11 @@
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    &._card {
+        display: flex; 
+        flex-direction: column; 
+        flex-wrap: wrap;
+        height: 220vw;
+        // max-height: 800px;
+    }
+}

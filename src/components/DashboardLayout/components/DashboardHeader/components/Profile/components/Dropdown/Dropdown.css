@@ -1,0 +1,21 @@
+.dropdown {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 15px 0 rgba(34, 38, 41, 0.4);
+  min-width: 140px;
+  left: 50%;
+  top: 65px;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0; }
+  .dropdown._visible {
+    pointer-events: auto;
+    opacity: 1;
+    transition: opacity .25s ease-in-out; }
+  .dropdown__item {
+    font-size: 16px; }
+    .dropdown__item button {
+      padding: 15px 20px; }
+    .dropdown__item:hover {
+      background-color: rgba(107, 110, 112, 0.1); }

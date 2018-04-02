@@ -1,0 +1,13 @@
+@import 'styles/common/variables.scss';
+
+.filter-result {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgba($grey, .3);
+    min-height: 50px;
+    &__item {
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+    }
+}

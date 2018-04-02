@@ -1,0 +1,4 @@
+.news-action-buttons {
+  display: flex; }
+  .news-action-buttons button:not(:first-child) {
+    margin-left: 20px; }

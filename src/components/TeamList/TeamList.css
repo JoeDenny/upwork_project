@@ -1,0 +1,4 @@
+.team-list {
+  padding: 20px; }
+  .team-list__item:not(:last-child) {
+    margin-bottom: 20px; }

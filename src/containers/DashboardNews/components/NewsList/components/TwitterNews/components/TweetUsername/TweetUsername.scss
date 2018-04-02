@@ -1,0 +1,17 @@
+.tweet-username {
+    display: flex;
+    align-items: center;
+    &__img {
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+        img {
+            max-width: 100%;
+        }
+    }
+    &__title {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 5px;
+    }
+}

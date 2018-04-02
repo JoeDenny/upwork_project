@@ -1,0 +1,31 @@
+@import 'styles/common/variables.scss';
+
+.dashboard-filter-info {
+    display: flex;
+    align-items: center;
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        margin-right: 20px;
+    }
+    &__filter {
+        flex-grow: 1;
+    }
+    &__separator {
+        font-weight: 700;
+        margin-right: 20px;
+    }
+    &__edit {
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 20px;
+    }
+    &__save {
+        background-color: $darkGreen;
+        padding: 5px 10px;
+        color: #fff;
+        border-radius: 3px;
+    }
+}

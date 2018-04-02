@@ -1,0 +1,42 @@
+.comment {
+    position: relative;
+    display: flex;
+    &__content {
+        margin-left: 10px;
+    }
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    &__edit {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 0;
+        right: 36px;
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+    &__remove {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        top: 0;
+        right: 0;
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+    &__content {
+        &-top {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 10px;
+        }
+        &-time {
+            margin-left: 5px;
+        }
+    }
+}
